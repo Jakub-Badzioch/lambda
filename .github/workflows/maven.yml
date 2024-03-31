@@ -41,3 +41,4 @@ jobs:
           aws_region: ${{ secrets.AWS_REGION }}
           function_name: gorush
           source: target/lambda-0.0.1-SNAPSHOT-aws.jar
+          runtime: java21
